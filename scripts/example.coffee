@@ -11,10 +11,10 @@
 module.exports = (robot) ->
 
    robot.hear /house rules/i, (res) ->
-     res.send "1. Kill Justin first."
-"2. Kill Harrison next."
-"3. Don't listen to anything Harrison says." 
-"4. Caitlin is always right."
+     res.send "1. Kill Justin first. 
+2. Kill Harrison next. 
+3. Don't listen to anything Harrison says. 
+4. Caitlin is always right."
   #
   # robot.respond /open the (.*) doors/i, (res) ->
   #   doorType = res.match[1]
