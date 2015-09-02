@@ -16,6 +16,7 @@ module.exports = (robot) ->
 3. Don't listen to anything Harrison says. 
 4. Caitlin is always right."
         
+module.exports = (robot) ->
         robot.hear /badger/i, (res) ->
     res.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
   #
