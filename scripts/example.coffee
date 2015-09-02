@@ -15,7 +15,6 @@ module.exports = (robot) ->
 2. Kill Harrison next. 
 3. Don't listen to anything Harrison says. 
 4. Caitlin is always right."
-        
   #
   # robot.respond /open the (.*) doors/i, (res) ->
   #   doorType = res.match[1]
