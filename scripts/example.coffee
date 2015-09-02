@@ -16,14 +16,6 @@ module.exports = (robot) ->
 3. Don't listen to anything Harrison says. 
 4. Caitlin is always right."
   #
-        
-       robot.hear /hungies/i, (res) ->
-     res.send "I'm hungies. Harrison, give me dindinz."
-            
-              robot.hear /Justin/i, (res) ->
-     res.send "Maybe Justin should use Shambleshark as his commander."
-            
-            
   # robot.respond /open the (.*) doors/i, (res) ->
   #   doorType = res.match[1]
   #   if doorType is "pod bay"
@@ -34,22 +26,22 @@ module.exports = (robot) ->
   # robot.hear /I like pie/i, (res) ->
   #   res.emote "makes a freshly baked pie"
   #
-  lulz = ['lol', 'rofl', 'lmao']
+  # lulz = ['lol', 'rofl', 'lmao']
   #
-  robot.respond /lulz/i, (res) ->
-    res.send res.random lulz
+  # robot.respond /lulz/i, (res) ->
+  #   res.send res.random lulz
   #
   # robot.topic (res) ->
   #   res.send "#{res.message.text}? That's a Paddlin'"
   #
   #
-  enterReplies = ['Hi', 'Target Acquired', 'Firing', 'Hello friend.', 'Gotcha', 'I see you']
-  leaveReplies = ['Are you still there?', 'Target lost', 'Searching']
+  # enterReplies = ['Hi', 'Target Acquired', 'Firing', 'Hello friend.', 'Gotcha', 'I see you']
+  # leaveReplies = ['Are you still there?', 'Target lost', 'Searching']
   #
-   robot.enter (res) ->
-    res.send res.random enterReplies
-   robot.leave (res) ->
-     res.send res.random leaveReplies
+  # robot.enter (res) ->
+  #   res.send res.random enterReplies
+  # robot.leave (res) ->
+  #   res.send res.random leaveReplies
   #
   # answer = process.env.HUBOT_ANSWER_TO_THE_ULTIMATE_QUESTION_OF_LIFE_THE_UNIVERSE_AND_EVERYTHING
   #
@@ -59,10 +51,10 @@ module.exports = (robot) ->
   #     return
   #   res.send "#{answer}, but what is the question?"
   #
-   robot.respond /you are a little slow/, (res) ->
-     setTimeout () ->
-       res.send "Who you calling 'slow'?"
-     , 60 * 1000
+  # robot.respond /you are a little slow/, (res) ->
+  #   setTimeout () ->
+  #     res.send "Who you calling 'slow'?"
+  #   , 60 * 1000
   #
   # annoyIntervalId = null
   #
