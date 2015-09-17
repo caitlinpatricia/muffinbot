@@ -15,6 +15,12 @@ module.exports = (robot) ->
 2. Kill Harrison next. 
 3. Don't listen to anything Harrison says. 
 4. Caitlin is always right."
+        
+        robot.hear /Harrison/i, (res) ->
+     res.send "Harrison, don't forget to clean out the fridge."
+            
+            robot.hear /Rakdos/i, (res) ->
+     res.send "Harrison, don't forget to clean out the fridge."
   #
   # robot.respond /open the (.*) doors/i, (res) ->
   #   doorType = res.match[1]
