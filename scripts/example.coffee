@@ -9,9 +9,12 @@
 #   These are from the scripting documentation: https://github.com/github/hubot/blob/master/docs/scripting.md
 
 module.exports = (robot) ->
-            
-            robot.hear /Rakdos/i, (res) ->
-     res.send "Harrison, don't forget to clean out the fridge."
+
+   robot.hear /house rules/i, (res) ->
+     res.send "1. Kill Justin first. 
+2. Kill Harrison next. 
+3. Don't listen to anything Harrison says. 
+4. Caitlin is always right."
   #
   # robot.respond /open the (.*) doors/i, (res) ->
   #   doorType = res.match[1]
