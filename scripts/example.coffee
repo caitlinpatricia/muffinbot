@@ -11,7 +11,7 @@
 module.exports = (robot) ->
 
    robot.hear /Rakdos/i, (res) ->
-     res.send "Harrison, don't forget to clean out the fridge." 
+     res.send "Harrison, you're grounded until you clean out the fridge." 
   #
   # robot.respond /open the (.*) doors/i, (res) ->
   #   doorType = res.match[1]
