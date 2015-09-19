@@ -14,7 +14,10 @@ module.exports = (robot) ->
      res.send "Harrison, you're grounded until you clean out the fridge." 
         
     robot.hear /Muffin mad/i, (res) ->
-     res.send "I'm not mad. I'm just disappointed." 
+     res.send "I'm not mad. I'm just disappointed, Harrison." 
+        
+    robot.hear /Good work/i, (res) ->
+     res.send "Thanks, Harrison!"
   #
   # robot.respond /open the (.*) doors/i, (res) ->
   #   doorType = res.match[1]
