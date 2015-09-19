@@ -10,9 +10,9 @@
 
 module.exports = (robot) ->
 
-   robot.hear /Rakdos/i, (res) ->
+   robot.hear /@Muffin_bot cast/i, (res) ->
      res.send "Harrison is grounded until he cleans out the fridge." 
-    robot.hear /Muffin angry/i, (msg) ->
+    robot.hear /muffin_bot angry/i, (msg) ->
      msg.send "http://i.perezhilton.com/wp-content/uploads/2014/04/not-angry-disappointed(1).gif"     
     robot.hear /Good work/i, (res) ->
      res.send "Thanks, Harrison! *purrr*"
