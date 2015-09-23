@@ -10,8 +10,8 @@
 
 module.exports = (robot) ->
 
-   robot.hear /muffin_bot whose fault is it/i, (res) ->
-     res.send "Harrison's." 
+   robot.hear /muffin_bot thinks you should/i, (res) ->
+     res.send "Harrison loves pennies." 
   #
   # robot.respond /open the (.*) doors/i, (res) ->
   #   doorType = res.match[1]
