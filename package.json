@@ -23,7 +23,8 @@
     "hubot-shipit": "^0.2.0",
     "hubot-shorts": "0.0.14",
     "hubot-telegram": "0.0.5",
-    "jsdom": "0.8.4"
+    "jsdom": "0.8.4",
+    "tumblrbot": "0.1.0"
   },
   "engines": {
     "node": "0.10.x"
