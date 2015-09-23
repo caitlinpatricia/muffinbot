@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Muffin_Bot
 
 Muffin_Bot is a chat bot built on the [Hubot][hubot] framework. It was
@@ -212,3 +213,7 @@ Add the subdomain hubot should connect to. If you web URL looks like
 
 You may want to get comfortable with `heroku logs` and `heroku restart` if
 you're having issues.
+=======
+# muffinbot
+MuffinBot is my house cat who likes to hang out in our Magic: The Gathering chatroom on Telegram. She casts a lot of spells and talks a lot of smack.
+>>>>>>> f3f4c3227e96ca4f921aa529cfcc4edd9704801a
