@@ -12,6 +12,9 @@ module.exports = (robot) ->
 
    robot.hear /no I don't/i, (res) ->
      res.send "Yes he does." 
+        
+   robot.hear /no I dont/i, (res) ->
+     res.send "Yes he does." 
   #
   # robot.respond /open the (.*) doors/i, (res) ->
   #   doorType = res.match[1]
