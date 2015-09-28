@@ -13,8 +13,8 @@ module.exports = (robot) ->
    robot.hear /no I don't/i, (res) ->
      res.send "Yes he does." 
         
-   robot.hear /muffin_bot is doing this/i, (res) ->
-     res.send "I am an autonomous and all-knowing cat. Caitlin is a mere human." 
+   robot.hear /Rakdos/i, (res) ->
+     res.send "Everyone's mad at Rakdos. They told me so." 
   #
   # robot.respond /open the (.*) doors/i, (res) ->
   #   doorType = res.match[1]
