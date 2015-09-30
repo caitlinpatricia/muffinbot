@@ -10,8 +10,8 @@
 
 module.exports = (robot) ->
 
-   robot.hear /no I don't/i, (res) ->
-     res.send "Yes he does." 
+   robot.hear /magic/i, (res) ->
+     res.send "Harrison, do your dishes plz. Love, Muffin." 
         
    robot.hear /Rakdos/i, (res) ->
      res.send "Everyone's mad at Rakdos. They told me so." 
