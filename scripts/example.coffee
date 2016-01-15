@@ -11,10 +11,10 @@
 module.exports = (robot) ->
 
    robot.hear /magic/i, (res) ->
-     res.send "Harrison, do your dishes plz. Love, Muffin." 
+     res.send "Magic? I love Magic!" 
         
-   robot.hear /Rakdos/i, (res) ->
-     res.send "Everyone's mad at Rakdos. They told me so." 
+   robot.hear /dysfunctional/i, (res) ->
+     res.send "Before we can have DYSFUNCTIONAL FAMILY DINNER Harrison needs to clean out his December food from the fridge." 
   #
   # robot.respond /open the (.*) doors/i, (res) ->
   #   doorType = res.match[1]
